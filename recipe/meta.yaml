@@ -1,5 +1,5 @@
 {% set name = "icontract" %}
-{% set version = "2.6.5" %}
+{% set version = "2.6.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/icontract-{{ version }}.tar.gz
-  sha256: 4cc702bbcef8ea91cb638659be3c977e777ef9ae9c4bbd29adbcb115bbc8b172
+  sha256: c1fd55c7709ef18a2ee64313fe863be2668b53060828fcca3525051160c92691
 
 build:
   noarch: python
