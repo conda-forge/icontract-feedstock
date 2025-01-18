@@ -22,6 +22,7 @@ requirements:
     - asttokens >=2,<3
     - python >={{ python_min }}
     - typing_extensions
+    - contextvars
 
 test:
   imports:
